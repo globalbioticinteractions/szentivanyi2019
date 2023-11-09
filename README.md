@@ -2,4 +2,4 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-bla
+Szentiványi T, Christe P and Glaizot O (2019) Bat Flies and Their Microparasites: Current Knowledge and Distribution. Front. Vet. Sci. 6:115. [doi: 10.3389/fvets.2019.00115](https://doi.org/10.3389/fvets.2019.00115).
