@@ -1,0 +1,117 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://www.frontiersin.org/articles/file/downloadfile/438584_supplementary-materials_datasheets_1_csv/octet-stream/Data%20Sheet%201.csv/3/438584?isPublishedV2=False",
+    "dcterms:bibliographicCitation" : "Szentiványi T, Christe P and Glaizot O (2019) Bat Flies and Their Microparasites: Current Knowledge and Distribution. Front. Vet. Sci. 6:115. doi: 10.3389/fvets.2019.00115",
+    "delimiter" : ",",
+    "interactionTypeName" : "host of",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002453",
+    "headerRowCount" : 3,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "Bat fly species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Batfly genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Bat fly family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Microparasite species",
+        "datatype" : "string"
+      }, {
+        "name" : "Microparasite group",
+        "titles" : "Microparasite group",
+        "datatype" : "string"
+      }, {
+        "name" : "Bat host species",
+        "titles" : "Bat host species",
+        "datatype" : "string"
+      }, {
+        "name" : "Bat host family",
+        "titles" : "Bat host family",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "Continent",
+        "titles" : "Continent",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Literature",
+        "datatype" : "string"
+      } ]
+    }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://www.frontiersin.org/articles/file/downloadfile/438584_supplementary-materials_datasheets_1_csv/octet-stream/Data%20Sheet%201.csv/3/438584?isPublishedV2=False",
+    "dcterms:bibliographicCitation" : "Szentiványi T, Christe P and Glaizot O (2019) Bat Flies and Their Microparasites: Current Knowledge and Distribution. Front. Vet. Sci. 6:115. doi: 10.3389/fvets.2019.00115",
+    "delimiter" : ",",
+    "interactionTypeName" : "ectoparasite of",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002632",
+    "headerRowCount" : 3,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "Bat fly species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Batfly genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Bat fly family",
+        "datatype" : "string"
+      }, {
+        "name" : "Microparasite species",
+        "titles" : "Microparasite species",
+        "datatype" : "string"
+      }, {
+        "name" : "Microparasite group",
+        "titles" : "Microparasite group",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Bat host species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Bat host family",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "Continent",
+        "titles" : "Continent",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Literature",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
